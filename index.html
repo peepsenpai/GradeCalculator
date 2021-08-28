@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rank Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="content1">
+                <h2>Grade Calculator</h2>
+                <h4>
+                    Enter your each and every subject's number
+                </h4>
+            </div>
+
+            <div class="content2">
+                <div class="user-value">
+                    <div class="user-form">
+                        <input type="number" class="user-value" id="math" placeholder="Enter Math's number">
+                    </div>
+                    <div class="user-form">
+                        <input type="number" class="user-value" id="physics" placeholder="Enter Physics's number">
+                    </div>
+                    <div class="user-form">
+                        <input type="number" class="user-value" id="chemistry" placeholder="Enter Chemistry's number">
+                    </div>
+                    <div class="user-form">
+                        <input type="number" class="user-value" id="biology" placeholder="Enter  Biology's number">
+                    </div>
+
+                    <div class="user-form">
+                        <button id="btn" class="user-button">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-data" id="show-data">
+                <p id="show-total"></p>
+                <p id="show-percentage"></p>
+                <p id="show-grades"></p>
+                <p id="show-value"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
